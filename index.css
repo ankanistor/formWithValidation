@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 98%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+header {
+    color: blue; 
+    border: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    color: blue;
+    border: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    height: calc(100% - 240px);
+    display:flex; 
+    justify-content:space-around;
+}
+
+footer {
+    color: blue;
+    border: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    border:1px solid grey;
+    margin: 10px 0;
+}
+
+.formular{
+    width:30%;
+}
+
+
+.mountain {
+    width: 40%; 
+}
+
+.description {
+    width: 10%;
+}
+
+#country {
+    width: 177px;
+}
+
+.stare {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around; 
+    padding-bottom:20px;
+}
+
+#holliday {
+    border: 1px solid grey;
+}
+
+#sdate,
+#edate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.component {
+    margin: 18px 30px;
+}
+
+.description #descriere {
+    width: 23.2vw;
+}
+
+.formular h3 {
+    margin-left: 30px;
+}
+
+.labelText {
+    display: inline-block;
+    width: 120px;
+}
+
+.checkboxGrup {
+    position:relative;
+    top:17px;
+}
+
+#gender {
+    display:flex;
+}
+
+.checkboxGrup div label {
+    text-align:right;
+}
+
+#gender p {
+    margin: 17px 15px 0 -10px;
+}
+
+#status {
+    display:flex;
+    justify-content:space-between;
+    width:150px;
+}
+
+.radioGrup {
+    margin:17px 15px 0 -10px;
+}
+
+#holliday {
+    padding:15px;
+}
+
+.approve {
+    display:flex;
+    justify-content:space-between;
+}
+
+.approve input {
+    margin: 10px 30px;
+    height:30px;
+    width: 120px;
+    font-size:medium;
+    color:blue;
+    border-color:blue;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

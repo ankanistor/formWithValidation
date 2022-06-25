@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Booking</title>
+  </head>
+  <body>
+    <header>
+      <h1>vacanta visata</h1>
+    </header>
+    <main>
+      <section class="formular">
+        <h3>Formular</h3>
+        <form>
+          <div class="component">
+            <label for="lname">
+            <span class="labelText">First Name</span>
+            </label> 
+            <input type="text" name="fname" />
+          </div>
+          <div class="component">
+            <label for="lname" class="labelText">Last Name</label>
+            <input type="text" name="lname" />
+          </div>
+          <div class="component">
+            <label for="country" class="labelText">Nationality</label>
+            <select id="country" name="countrylist">
+              <option value="austria">Austria</option>
+              <option value="romania">Romania</option>
+              <option value="rusia">Rusia</option>
+              <option value="ungaria">Ungaria</option>
+              <option value="bulgaria">Bulgaria</option>
+              <option value="grecia">Greciaaaaaaaaa</option>
+            </select>
+          </div>
+          <div class="component">
+            <label for="age" class="labelText">Age </label>
+            <input type="number" id="age" name="age"></input>
+          </div>
+          <div class = "stare component" >
+            <div id="gender">
+              <p> Gender: </p>
+              <div class="checkboxGrup"> 
+                <div> 
+                   <input type="checkbox" id="fem" name="sex" value="fem">
+                    <label for="fem">F</label>
+                </div>
+                <div> 
+                   <input type="checkbox" id="masc" name="sex" value="masc">
+                    <label for="masc">M</label>
+                </div>
+                <div> 
+                  <input type="checkbox" id="neutru" name="sex" value="neutru">
+                  <label for="neutru">N</label>
+                </div>
+              </div>
+            </div>
+            <div id="status" >
+               <p> Status: </p>
+               <div class="radioGrup"> 
+                <div >
+                <input type="radio" id="single" name="status" value="single">
+                <label for="single">Single</label>
+               </div>
+               <div> 
+                <input type="radio" id="married" name="status" value="married">
+                <label for="married">Married</label>
+               </div>
+               </div>
+               
+            </div>
+          </div >
+          <div class="component description"> 
+            <p><label for="descriere">Descrierea</label></p>
+            <textarea id="descriere" name="descriere" rows="6">
+              Rezervarile negarantate vor fi mentinute , de principiu, de catre hotel pana la ora locala 18.00 in preziua sosirii. In perioadele aglomerate, hotelul isi rezerva dreptul de a anula fara preaviz aceste rezervari, daca nu sunt garantate de catre o companie, agentie de turism sau cu un card bancar valabil la data rezervarii. Daca o rezervare garantata se anuleaza dupa aceasta ora, se percepe o penalizare echivalenta cu contravaloarea primei nopti de cazare.
+            </textarea>
+          </div>
+          <div id="holliday" class="component">
+            <p>Holliday</p>
+              <label for="startdate">Start date:</label>
+                <input type="date" id="startdate" name="startdate">
+              <label for="enddate">End date:</label>
+                <input type="date" id="enddate" name="enddate">
+          </div>
+          <div class="component approve"  >
+            <input type="reset" value="Cancel">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </section>
+      <section class="description">text</section>
+      <section class="mountain">mountain</section>
+    </main>
+    <footer>
+      <h1>footer</h1>
+    </footer>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+  </html>
+  
